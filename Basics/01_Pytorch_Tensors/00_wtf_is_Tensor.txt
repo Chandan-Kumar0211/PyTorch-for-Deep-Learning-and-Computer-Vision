@@ -1,0 +1,32 @@
+
+--------------------------------------------------TENSOR-------------------------------------------------------
+# Tensor and n-dimensional array are same thing (in context of mathematics)
+# Tensor is simply a data structure/container in which we can store numbers (mostly-99.99%)
+
+# A tensor is a generalization of vectors and matrices and is easily understood as a multidimensional array.
+  In the general case, an array of numbers arranged on a regular grid with a variable number of axes is known as a tensor.
+  A vector is a one-dimensional or first-order tensor and a matrix is a two-dimensional or second-order tensor.
+
+NOTE:- # [ No of axis = Rank = No of Dimensions ]
+       # A 1D tensor i.e., a vector (a 1-D array) could itself be of multi-dimension
+       Eg:- [1,2,3] is a 1D tensor, which is also a vector in 3-Dimension
+
+
+
+# 0-D Tensor is called a Scaler
+--> np.array(4)
+
+# 1-D Tensor is simply a list of numbers (a vector or 1-D array)
+--> np.array([1,8,50])
+
+# 2-D Tensor is simply a matrices
+--> np.array([[1,2,3],[3,3,3]])
+
+# 3-D Tensor is simply an 3D array
+--> np.array([[[1,2],[3,4]],
+             [[10,10],[20,20]]]
+             )
+
+And So On.....
+________________________________________________________________________________________________________________________
+
