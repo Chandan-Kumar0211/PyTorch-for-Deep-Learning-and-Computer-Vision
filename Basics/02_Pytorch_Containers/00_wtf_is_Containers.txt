@@ -1,0 +1,34 @@
+In PyTorch, containers are a way to organize and group together multiple layers or modules of a neural network.
+The main container classes in PyTorch are nn.Sequential, nn.ModuleList, nn.ModuleDict and nn.ParameterList.
+
+# ##############################---nn.Sequential---############################# #
+It is a container that allows you to stack multiple layers or modules in a sequential order.
+It is useful when you want to create a simple feedforward network or chain multiple layers together.
+
+
+# ##############################---nn.ModuleList---############################# #
+It is a container that allows you to create a list of modules.
+It is useful when you want to create a neural network with an arbitrary number of layers.
+
+
+# ##############################---nn.ModuleDict---############################# #
+It is a container that allows you to create a dictionary of modules.
+It is useful when you want to create a neural network with a variable number of named layers.
+
+
+
+
+###################################################################################
+--> Containers provide a convenient way to organize and manipulate multiple layers or
+    modules within a neural network.
+--> They make it easier to build complex models and perform operations on them, such as moving them to
+    a GPU or freezing certain layers during training.
+
+NOTE: In PyTorch, the terms "module" and "layer" are often used interchangeably to refer to a building block
+      of a neural network that performs a specific computation on the input data.
+####################################################################################
+
+
+
+
+
